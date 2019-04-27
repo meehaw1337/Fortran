@@ -17,8 +17,8 @@ module dotmath
 
         C=0
 
-        do i=1,size(A,1)
-            do j=1,size(B,2)
+        do j=1,size(B,2)
+            do i=1,size(A,1)
                     C(i,j) = dot_product( A(i,:) , B(:,j) )
             end do
         end do 
@@ -33,8 +33,8 @@ module dotmath
 
         C=0
 
-        do i=1,size(A,1)
-            do j=1,size(B,2)
+        do j=1,size(B,2)
+            do i=1,size(A,1)
                     C(i,j) = dot_product( A(i,:) , B(:,j) )
             end do
         end do  
@@ -50,8 +50,8 @@ module dotmath
 
         C=0
 
-        do i=1,size(A,1)
-            do j=1,size(B,2)
+        do j=1,size(B,2)
+            do i=1,size(A,1)
                     C(i,j) = dot_product( A(i,:) , B(:,j) )
             end do
         end do  
