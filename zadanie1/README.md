@@ -1,8 +1,8 @@
 # Fortran - Task 1
 Matrix multiplication implementation using:<br>
-naive method<br>
-better method<br>
-method using a built-in dot_product function
+ naive method<br>
+ better method<br>
+ method using a built-in dot_product function
 
 # Results
 https://github.com/meehaw1337/Fortran/blob/master/zadanie1/res/wykres4.pdf
