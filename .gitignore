@@ -4,7 +4,8 @@
 idk.F90
 makefile
 Makefile
-*.txt
 *.cmake
 mull
 CMakeFiles
+CMakeCache.txt
+CMakeLists.txt
