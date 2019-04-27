@@ -1,7 +1,7 @@
 # Fortran - Task 1
-Matrix multiplication implementation using:
-naive method
-better method
+Matrix multiplication implementation using:<br>
+naive method<br>
+better method<br>
 method using a built-in dot_product function
 
 # Results
