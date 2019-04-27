@@ -1,6 +1,5 @@
 *.out
 *.mod
-*.dat
 idk.F90
 makefile
 Makefile
