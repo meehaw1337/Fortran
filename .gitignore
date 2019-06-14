@@ -1,8 +1,6 @@
 *.out
 *.mod
 idk.F90
-makefile
-Makefile
 *.cmake
 mull
 CMakeFiles
