@@ -17,5 +17,5 @@ program poleceniem ./zad1.
 
 Pierwszym krokiem było wygenerowanie sygnału na podstawie wzoru   x = sin(2 ∗ π ∗ t ∗ 200) + 2 ∗ sin(2 ∗ π ∗ t ∗ 400)
 Poniżej znajduje się wykres tego sygnału w czasie:
-![alt text](https://github.com/meehaw1337/Fortran/zadanie2/res/zad1-signal-time.png)
+![alt text](https://github.com/meehaw1337/Fortran/blob/master/zadanie2/res/zad1-signal-time.png)
 
