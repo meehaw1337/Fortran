@@ -3,7 +3,7 @@ program zad1
     implicit none
     include "fftw3.f03"
 
-    integer, parameter :: n = 2048
+    integer, parameter :: n = 512
 
     real(c_double), allocatable             :: data_in(:)
     complex(c_double_complex), allocatable  :: data_out(:)
