@@ -13,9 +13,9 @@ program zad1
     integer :: out_size  = n/2 + 1
     
     integer  :: i
-    real(16) :: tmp
-    real(16) :: t   = 0.0
-    real(16) :: dt  = 1.0 / (n-1.0) 
+    real     :: tmp
+    real     :: t   = 0.0
+    real     :: dt  = 1.0 / (n-1.0) 
 
     allocate(data_in(in_size))
     allocate(data_out(out_size))
@@ -39,6 +39,8 @@ program zad1
     end do
 
     call fftw_destroy_plan(planf)
-    
+
+    close(1)
+    close(2)
 
 end program zad1
