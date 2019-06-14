@@ -28,3 +28,32 @@ Następnie przy użyciu funkcji biblioteki FFTW stosujemy transformatę Fouriera
 
 Częstotliwości na powyższym wykresie są zgodne z wygenerowanym przez nas sygnałem. Użycie transformaty Fouriera pozwala nam dowiedzieć się, z jakich sygnałów składa się nasz sygnał wyjściowy. 
 
+
+## Część 2
+
+### Kompilacja i uruchamianie
+
+Analogicznie jak w części pierwszej.
+
+### Przebieg zadania i wyniki
+
+Zadanie należało rozpocząć od wygenerowania lekko zaburzonego wykresu funkcji cosinus. Wykres poniżej.
+
+![alt text](https://github.com/meehaw1337/Fortran/blob/master/zadanie2/res/zad2-cos-distorted-plot.png)
+
+Kolejnym etapem było zastosowanie transformaty Fouriera do utworzenia widma powyższego sygnału.
+
+![alt text](https://github.com/meehaw1337/Fortran/blob/master/zadanie2/res/zad2-cos-distorted-widmo-plot.png)
+
+Możemy zredukować szum poprzez wyzerowanie wartości, których wartość bezwzględna jest mniejsza od 50. Wynik poniżej.
+
+![alt text](https://github.com/meehaw1337/Fortran/blob/master/zadanie2/res/zad2-cos-cleared-widmo.png)
+
+Na końcu stosujemy odwrotną transformatę Fouriera i porównujemy otrzymany wynik z czystą funkcją cosinus.
+
+![alt text](https://github.com/meehaw1337/Fortran/blob/master/zadanie2/res/zad2-cos-cleared-result-plot.png)
+
+![alt text](https://github.com/meehaw1337/Fortran/blob/master/zadanie2/res/zad2-cos-clear-plot.png)
+
+Jak widać, nasz wynik nie jest idealny, ale nie zmienia to faktu, że udało nam się zredukować szum.
+
