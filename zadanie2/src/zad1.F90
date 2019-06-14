@@ -3,7 +3,7 @@ program zad1
     implicit none
     include "fftw3.f03"
 
-    integer, parameter :: n = 1000
+    integer, parameter :: n = 512
 
     real(c_double), allocatable             :: data_in(:)
     complex(c_double_complex), allocatable  :: data_out(:)
@@ -12,10 +12,10 @@ program zad1
     integer :: in_size   = n
     integer :: out_size  = n/2 + 1
     
-    integer :: tmp
-    integer :: i
-    real    :: t   = 0
-    real    :: dt  = 1 / (n-1) 
+    integer  :: i
+    real(16) :: tmp
+    real(16) :: t   = 0.0
+    real(16) :: dt  = 1.0 / (n-1.0) 
 
     allocate(data_in(in_size))
     allocate(data_out(out_size))
