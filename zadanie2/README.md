@@ -51,7 +51,7 @@ Możemy zredukować szum poprzez wyzerowanie wartości, których wartość bezwz
 
 Na końcu stosujemy odwrotną transformatę Fouriera i porównujemy otrzymany wynik z czystą funkcją cosinus.
 
-![alt text](https://github.com/meehaw1337/Fortran/blob/master/zadanie2/res/zad2-cos-cleared-result-plot.png)
+![alt text](https://github.com/meehaw1337/Fortran/blob/master/zadanie2/res/zad2-cos-clear-result-plot.png)
 
 ![alt text](https://github.com/meehaw1337/Fortran/blob/master/zadanie2/res/zad2-cos-clear-plot.png)
 
